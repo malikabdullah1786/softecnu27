@@ -1,26 +1,17 @@
 'use client'
 
 import PageWrapper from '../components/PageWrapper'
+import Heading from '../components/Heading'
 
 export default function AboutPage() {
   return (
-    <PageWrapper size={8} title="About Us">
-      <div className="px-4 md:px-8 max-w-7xl mx-auto">
-        <section className="mb-12 mt-12">
-          <div className="text-center max-w-5xl mx-auto">
-            <h2 className="text-3xl font-bold text-secondary mb-4">
-              Welcome to SOFTEC
-            </h2>
-            <p className="text-dark/75 text-lg leading-relaxed">
-              SOFTEC is Pakistan&apos;s largest and most prestigious international IT event,
-              organized annually by the students of FAST National University, Lahore. Since
-              its inception, SOFTEC has grown into a three-day festival that attracts
-              thousands of participants, industry professionals, and tech enthusiasts. Our
-              vision, &ldquo;Beyond Limits,&rdquo; reflects our commitment to pushing
-              technological boundaries and fostering innovation.
-            </p>
-          </div>
-        </section>
+    <PageWrapper size={7} title="About Us">
+      <div className="px-2 sm:px-4 max-w-6xl mx-auto">
+        <Heading
+          badge="Since 1995"
+          text="Welcome to SOFTEC"
+          subtitle={'SOFTEC is Pakistan\'s largest and most prestigious international IT event, organized annually by the students of FAST National University, Lahore. Our vision, "Beyond Limits," reflects our commitment to pushing technological boundaries and fostering innovation.'}
+        />
 
         <section className="grid md:grid-cols-2 gap-8 mb-12">
           <div className="bg-white p-8 rounded-2xl border border-secondary/15 shadow-sm">

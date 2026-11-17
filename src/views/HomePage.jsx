@@ -271,7 +271,8 @@ function VideoAndGallerySection() {
             title="SOFTEC Highlights"
             poster="maxresdefault"
             webp
-            aspectHeight={7}
+            aspectHeight={9}
+            aspectWidth={16}
             params="rel=0"
           />
         </div>

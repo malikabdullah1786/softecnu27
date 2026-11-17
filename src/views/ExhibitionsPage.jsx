@@ -28,16 +28,16 @@ function ExhibitionDetail({ selected }) {
       <h3 className="md:text-4xl text-logo-black py-12 text-2xl font-bold text-center">
         {selected.name}
       </h3>
-      <div className="rounded-2xl xl:mx-0 group relative overflow-hidden cursor-pointer">
-        <div className="md:opacity-0 rounded-xl group-hover:md:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 absolute inset-x-0 z-10 text-white transition duration-300 ease-in-out opacity-100 cursor-pointer">
-          <div className="transform-gpu bg-textGradient group-hover:md:opacity-100 group-hover:md:translate-y-0 p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4">
-            <div className="md:block hidden text-lg font-bold text-white">
+      <div className="rounded-2xl xl:mx-0 group relative overflow-hidden cursor-pointer border border-secondary/15 shadow-lg">
+        <div className="md:opacity-0 rounded-xl group-hover:md:opacity-100 from-dark/90 via-dark/50 to-transparent bg-gradient-to-t bottom-0 absolute inset-x-0 z-10 text-light transition duration-300 ease-in-out opacity-100 cursor-pointer">
+          <div className="transform-gpu group-hover:md:opacity-100 group-hover:md:translate-y-0 p-6 space-y-3 text-xl transition duration-300 ease-in-out translate-y-2">
+            <div className="md:block hidden text-base lg:text-lg font-semibold text-light">
               {selected.description}
             </div>
           </div>
         </div>
         <div
-          className="w-full max-h-[720px]"
+          className="w-full max-h-[600px]"
           style={{
             filter: loaded ? 'grayscale(0) blur(0px)' : 'grayscale(100%) blur(10px)',
           }}
@@ -46,12 +46,12 @@ function ExhibitionDetail({ selected }) {
             alt={selected.name}
             width={1080}
             height={720}
-            className="w-full bg-logo-light-yellow max-h-[720px] object-cover transition duration-300 ease-in-out group-hover:scale-110"
+            className="w-full bg-light max-h-[600px] object-cover transition duration-300 ease-in-out group-hover:scale-105"
             src={selected.highlight_image}
           />
         </div>
       </div>
-      <div className="md:hidden mt-4 text-base text-gray-700">
+      <div className="md:hidden mt-4 p-5 rounded-xl bg-white border border-secondary/15 text-sm text-dark/80 shadow-sm">
         {selected.description}
       </div>
     </section>
