@@ -2,8 +2,9 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 
-const navRoutes = [
+const navLinks = [
   { title: 'Home', url: '/' },
   { title: 'Competitions', url: '/competitions' },
   { title: 'Exhibitions', url: '/exhibitions' },
@@ -24,152 +25,204 @@ const navRoutes = [
   { title: 'About Us', url: '/about' },
 ]
 
-function NavLinkItem({ route, children, onNavigate }) {
-  if (route.url) {
-    return (
-      <Link
-        href={route.url}
-        onClick={onNavigate}
-        className="text-light hover:bg-primary hover:text-dark flex flex-row items-center justify-center cursor-pointer text-[18px] font-bold py-0 px-[17px] rounded-[5px] transition-all duration-300 ease-in-out"
-      >
-        {route.title} {children}
-      </Link>
-    )
-  }
-  return (
-    <span className="text-light hover:bg-primary hover:text-dark flex flex-row items-center justify-center cursor-pointer text-[18px] font-bold py-0 px-[17px] rounded-[5px] transition-all duration-300 ease-in-out">
-      {route.title} {children}
-    </span>
-  )
-}
-
 export default function Navbar() {
+  const pathname = usePathname()
   const [menuOpen, setMenuOpen] = useState(false)
-
-  function handleSubMenuToggle(e) {
-    e.currentTarget.classList.toggle('active')
-  }
+  const [regOpen, setRegOpen] = useState(false)
 
   useEffect(() => {
-    const onScroll = () => {
-      const el = document.querySelector('.navWrapper')
-      if (!el) return
-      if (window.scrollY >= 80) el.classList.add('scrolled')
-      else el.classList.remove('scrolled')
-    }
-    window.addEventListener('scroll', onScroll, { passive: true })
-    return () => window.removeEventListener('scroll', onScroll, { passive: true })
-  }, [])
+    setMenuOpen(false)
+    setRegOpen(false)
+  }, [pathname])
 
   return (
-    <div className="fixed py-2 navWrapper md:py-5 top-0 w-full z-[1000]">
-      <nav className="relative flex flex-row max-w-[calc(100%-50px)] mx-auto my-0 h-[70px] items-center justify-center">
-        <div
-          className={`cursor-pointer menuIcon hidden ${menuOpen ? 'opened' : ''}`}
-          onClick={() => setMenuOpen((prev) => !prev)}
+    <header className="fixed top-3 left-1/2 -translate-x-1/2 w-[94%] max-w-7xl rounded-2xl z-[1000] border border-primary/20 shadow-glow bg-surface-card/85 backdrop-blur-md">
+      <div className="flex justify-between items-center px-4 sm:px-6 py-3 w-full">
+        {/* Brand Lockup */}
+        <Link
+          href="/"
+          className="flex items-center gap-3 group active:scale-[0.98] transition-transform duration-150 shrink-0"
         >
-          {menuOpen ? (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 320 512"
-              fill="#F9F9F9"
-              className="scale-90 w-[30px] md:w-[40px]"
-            >
-              <path d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z" />
-            </svg>
-          ) : (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 448 512"
-              fill="#F9F9F9"
-              className="w-[30px] md:w-[40px]"
-            >
-              <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
-            </svg>
-          )}
-        </div>
-
-        <div className="content justify-evenly flex items-center w-full">
-          <div className="logo -ml-[12px]">
-            <Link
-              href="/"
-              onClick={() => setMenuOpen(false)}
-              className="flex items-center gap-3 text-white font-semibold"
-            >
-              <img
-                src="/media/softec-mini.png"
-                alt="SOFTEC Logo"
-                className="w-10 h-10 md:w-12 md:h-12 object-contain shrink-0"
-              />
-              <div className="flex flex-col leading-none">
-                <span className="text-xl md:text-2xl font-extrabold tracking-wide text-light">
-                  SOFTEC<span className="text-primary">&apos;27</span>
-                </span>
-                <span className="text-[10px] md:text-xs font-medium text-tertiary tracking-widest uppercase">
-                  Legacy Meets Tomorrow
-                </span>
-              </div>
-            </Link>
+          <div className="w-10 h-10 rounded-xl bg-surface-highest flex items-center justify-center border border-primary/30 p-1.5 group-hover:border-primary transition-colors">
+            <img
+              src="/media/softec-mini.png"
+              alt="SOFTEC Logo"
+              className="w-full h-full object-contain"
+            />
           </div>
+          <div className="flex flex-col leading-none">
+            <span className="text-lg sm:text-xl font-extrabold text-light tracking-tight">
+              SOFTEC<span className="text-primary">&apos;27</span>
+            </span>
+            <span className="text-[9px] sm:text-[10px] font-semibold text-tertiary tracking-widest uppercase mt-0.5">
+              Legacy Meets Tomorrow
+            </span>
+          </div>
+        </Link>
 
-          <ul className="links flex items-center w-auto" data-lenis-prevent="true">
-            {navRoutes.map((route, idx) => (
-              <li
-                key={idx}
-                id={route.url}
-                onClick={route.subMenu ? handleSubMenuToggle : undefined}
-                className={`list-none relative leading-[50px] group ${
-                  route.subMenu ? 'has-submenu' : ''
+        {/* Desktop Nav */}
+        <nav className="hidden xl:flex items-center gap-1">
+          {navLinks.map((item) => {
+            if (item.subMenu) {
+              const isRegActive = pathname?.startsWith('/registration')
+              return (
+                <div key={item.title} className="relative group">
+                  <button
+                    type="button"
+                    className={`flex items-center gap-1 px-3 py-2 rounded-lg text-xs font-bold tracking-wide transition-colors ${
+                      isRegActive
+                        ? 'text-primary bg-surface-highest'
+                        : 'text-on-surface-muted hover:text-primary hover:bg-surface-high'
+                    }`}
+                  >
+                    <span>{item.title}</span>
+                    <span className="material-symbols-outlined text-base">expand_more</span>
+                  </button>
+                  <div className="absolute left-0 top-full pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                    <ul className="w-44 rounded-xl bg-surface-card border border-primary/20 shadow-2xl p-1.5">
+                      {item.subMenu.map((sub) => (
+                        <li key={sub.url}>
+                          <Link
+                            href={sub.url}
+                            className={`block px-3 py-2 rounded-lg text-xs font-bold transition-colors ${
+                              pathname === sub.url
+                                ? 'bg-primary text-dark'
+                                : 'text-light hover:bg-surface-highest hover:text-primary'
+                            }`}
+                          >
+                            {sub.title}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              )
+            }
+
+            const active = pathname === item.url
+            return (
+              <Link
+                key={item.url}
+                href={item.url}
+                className={`px-3 py-2 rounded-lg text-xs font-bold tracking-wide transition-colors ${
+                  active
+                    ? 'text-primary bg-surface-highest'
+                    : 'text-on-surface-muted hover:text-primary hover:bg-surface-high'
                 }`}
               >
-                <NavLinkItem route={route} onNavigate={() => setMenuOpen(false)}>
-                  {route.subMenu && (
-                    <svg
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="#F9F9F9"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M12 15.375L6 9.375L7.075 8.3L12 13.25L16.925 8.325L18 9.4L12 15.375Z"
-                        fill="#F9F9F9"
-                      />
-                    </svg>
-                  )}
-                </NavLinkItem>
-                {route.subMenu && (
-                  <ul className="px-4 group-hover:top-[50px] left-0 group-hover:opacity-100 group-hover:visible group-hover:transition-all group-hover:duration-300 group-hover:ease-in-out sub-menu absolute bg-secondary border border-primary/20 rounded-xl py-[8px] top-[70px] z-[-1] opacity-0 invisible transition-all duration-300 ease-in-out shadow-xl">
-                    {route.subMenu.map((sub, subIdx) => (
-                      <li key={subIdx}>
+                {item.title}
+              </Link>
+            )
+          })}
+        </nav>
+
+        {/* Trailing Actions */}
+        <div className="flex items-center gap-2.5 shrink-0">
+          <a
+            href="http://lhr.nu.edu.pk/"
+            target="_blank"
+            rel="noreferrer"
+            title="FAST NUCES Lahore"
+            className="hidden sm:flex items-center justify-center w-9 h-9 rounded-xl bg-surface-high border border-outline-subtle/50 p-1 hover:border-primary/50 transition-colors"
+          >
+            <img
+              src="/assets/fastnu.webp"
+              alt="FAST NU Logo"
+              className="w-full h-full object-contain"
+            />
+          </a>
+
+          <Link
+            href="/registration/competition"
+            className="hidden sm:inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-primary text-dark text-xs font-extrabold hover:shadow-glow hover:scale-[1.02] active:scale-[0.98] transition-all"
+          >
+            <span>Register</span>
+            <span className="material-symbols-outlined text-sm">arrow_forward</span>
+          </Link>
+
+          {/* Mobile / Tablet Drawer Toggle */}
+          <button
+            type="button"
+            aria-label="Toggle Menu"
+            onClick={() => setMenuOpen((prev) => !prev)}
+            className="xl:hidden flex items-center justify-center w-10 h-10 rounded-xl bg-surface-high border border-primary/25 text-primary hover:bg-primary hover:text-dark transition-colors"
+          >
+            <span className="material-symbols-outlined text-2xl">
+              {menuOpen ? 'close' : 'menu'}
+            </span>
+          </button>
+        </div>
+      </div>
+
+      {/* Scrollable Mobile / Tablet Drawer */}
+      {menuOpen && (
+        <div
+          data-lenis-prevent="true"
+          className="xl:hidden border-t border-primary/15 bg-surface-card/95 backdrop-blur-xl rounded-b-2xl max-h-[calc(100dvh-96px)] overflow-y-auto overscroll-contain px-4 py-4 space-y-1.5"
+        >
+          {navLinks.map((item) => {
+            if (item.subMenu) {
+              return (
+                <div key={item.title} className="rounded-xl bg-surface-high/60 border border-outline-subtle/30">
+                  <button
+                    type="button"
+                    onClick={() => setRegOpen((p) => !p)}
+                    className="w-full flex items-center justify-between px-4 py-3 text-sm font-bold text-light"
+                  >
+                    <span>{item.title}</span>
+                    <span className="material-symbols-outlined text-lg text-primary">
+                      {regOpen ? 'expand_less' : 'expand_more'}
+                    </span>
+                  </button>
+                  {regOpen && (
+                    <div className="px-3 pb-3 space-y-1">
+                      {item.subMenu.map((sub) => (
                         <Link
+                          key={sub.url}
                           href={sub.url}
-                          onClick={() => setMenuOpen(false)}
-                          className="text-light w-full leading-[30px] hover:bg-primary hover:text-dark text-[18px] flex flex-row items-center justify-start cursor-pointer font-bold py-[9px] transition-all duration-300 ease-in-out px-[17px] rounded-lg"
+                          className={`block px-3 py-2 rounded-lg text-xs font-bold ${
+                            pathname === sub.url
+                              ? 'bg-primary text-dark'
+                              : 'text-on-surface-muted hover:bg-surface-highest hover:text-primary'
+                          }`}
                         >
                           {sub.title}
                         </Link>
-                      </li>
-                    ))}
-                  </ul>
-                )}
-              </li>
-            ))}
-          </ul>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              )
+            }
 
-          <div className="w-[50px] h-[50px] md:h-[75px] md:w-[75px] fastlogo">
-            <a href="http://lhr.nu.edu.pk/" target="_blank" rel="noreferrer">
-              <img
-                src="/assets/fastnu.webp"
-                alt="FAST NU logo"
-                width={100}
-                height={100}
-                className="object-contain cursor-pointer"
-              />
-            </a>
+            const active = pathname === item.url
+            return (
+              <Link
+                key={item.url}
+                href={item.url}
+                className={`block px-4 py-3 rounded-xl text-sm font-bold transition-colors ${
+                  active
+                    ? 'bg-primary text-dark'
+                    : 'text-light bg-surface-high/40 hover:bg-surface-highest hover:text-primary'
+                }`}
+              >
+                {item.title}
+              </Link>
+            )
+          })}
+
+          <div className="pt-2">
+            <Link
+              href="/registration/competition"
+              className="w-full flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-primary text-dark text-sm font-extrabold"
+            >
+              <span>Register Now</span>
+              <span className="material-symbols-outlined text-base">arrow_forward</span>
+            </Link>
           </div>
         </div>
-      </nav>
-    </div>
+      )}
+    </header>
   )
 }

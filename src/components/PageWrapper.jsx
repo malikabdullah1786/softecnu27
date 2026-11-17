@@ -5,9 +5,9 @@ import { motion } from 'framer-motion'
 import Navbar from './Navbar'
 
 const pageVariants = {
-  hidden: { opacity: 0, x: 0, y: 20 },
-  enter: { opacity: 1, x: 0, y: 0 },
-  exit: { opacity: 0, x: 0, y: 20 },
+  hidden: { opacity: 0, y: 16 },
+  enter: { opacity: 1, y: 0 },
+  exit: { opacity: 0, y: 16 },
 }
 
 const sizeMap = {
@@ -16,40 +16,30 @@ const sizeMap = {
   5: 'max-w-5xl',
   6: 'max-w-6xl',
   7: 'max-w-7xl',
-  8: 'max-w-[100rem]',
-  '8xl': 'max-w-[100rem]',
+  8: 'max-w-full',
+  '8xl': 'max-w-full',
 }
 
-export default function PageWrapper({ children, title, size = 4 }) {
-  useEffect(() => {
-    document.title = title !== 'Home' ? `${title} - SOFTEC'27` : "SOFTEC'27"
-  }, [title])
+export default function PageWrapper({ children, title, size = 7 }) {
+  const isHome = title.includes('Home')
 
   useEffect(() => {
-    const cls = title.includes('Home') ? 'home' : 'page'
-    document.body.classList.add(cls)
-    return () => {
-      document.body.classList.remove(cls)
-    }
-  }, [title])
+    document.title = !isHome ? `${title} - SOFTEC'27` : "SOFTEC'27 | Legacy Meets Tomorrow"
+  }, [title, isHome])
 
-  const maxW = sizeMap[size] || 'max-w-4xl'
+  const maxW = sizeMap[size] || 'max-w-7xl'
 
   return (
     <>
       <Navbar />
-      <div
-        className={`${
-          title.includes('Home') ? '' : 'mt-[110px]'
-        } flex min-h-full items-center justify-center`}
-      >
+      <div className={`${isHome ? '' : 'pt-28 pb-16 px-4 sm:px-6'} flex min-h-screen justify-center`}>
         <div id="page" className={`w-full ${maxW}`}>
           <motion.article
             initial="hidden"
             animate="enter"
             exit="exit"
             variants={pageVariants}
-            transition={{ duration: 0.45, ease: 'easeInOut' }}
+            transition={{ duration: 0.4, ease: 'easeInOut' }}
           >
             {children}
           </motion.article>
