@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Engineering Project Exhibition",
+    "logo": "/images/ab2803274ef5.png",
+    "description": "The exceedingly ambitious hardware-based projects submitted to the software competition in recent years, as well as our institute’s steps into the hardware engineering education arena prompted us to initiate this competition exclusively for engineering projects of undergraduate students.",
+    "highlight_image": "/images/6f9fbb53be6a.jpg"
+  },
+  {
+    "id": 2,
+    "name": "I.T Conferences",
+    "logo": "/images/2f6f69faaa6d.png",
+    "description": "One of the major highlights at SOFTEC each year are the I.T. Conferences organized by the team. Impactful personalities of the I.T. field are invited to speak regarding a particular theme at the conferences to inspire and guide the participating students to their success by sharing their experiences. The conferences halls witness some of the biggest crowds as they eager to be a part of informational, inspirational, fun and lively conferences.",
+    "highlight_image": "/images/a2b390049a93.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Software House Enclosure",
+    "logo": "/images/d585920965bc.png",
+    "description": "SOFTEC is a unique opportunity for software houses to display their products to an enormous number of visitors, as well as look for recruits among the promising students of universities across Asia. This enclosure houses displays from a variety of software houses. A live rendering of the products assists in appreciating the talents at display. This enclosure also serves as an opportunity for students to get acquainted with their future employers.",
+    "highlight_image": "/images/a88d1d41d96e.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Software Project Exhibition",
+    "logo": "/images/815b12a0f5bb.png",
+    "description": "This exhibition brings together students from across the world to display their software projects for formal judging by a team of experts, providing participants with valuable feedback and experience of real-world evaluation benchmarks. Visitors to the exhibition are more often than not students seeking projects with the potential for future development.",
+    "highlight_image": "/images/b87af997d35a.jpg"
+  }
+]

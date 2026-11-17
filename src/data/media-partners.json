@@ -1,0 +1,62 @@
+[
+  {
+    "id": 20,
+    "name": "Propergaanda",
+    "logo": "/images/d196275675ee.png",
+    "link": "https://www.instagram.com/propergaanda/?hl=en"
+  },
+  {
+    "id": 18,
+    "name": "The Advocate Post",
+    "logo": "/images/98905a212b7f.png",
+    "link": "https://theadvocatepost.org"
+  },
+  {
+    "id": 17,
+    "name": "Life At Lahore",
+    "logo": "/images/f08c9d8d86c4.png",
+    "link": "https://www.instagram.com/lifeatlahore/?hl=en"
+  },
+  {
+    "id": 16,
+    "name": "Runway Pakistan",
+    "logo": "/images/e3490eedcb01.png",
+    "link": "https://runwaypakistan.com"
+  },
+  {
+    "id": 14,
+    "name": "Pakistan Frontier",
+    "logo": "/images/98938d84766c.png",
+    "link": "https://www.instagram.com/pakistanfrontier?igsh=YWhkanA0ODRzMzM5"
+  },
+  {
+    "id": 15,
+    "name": "Bayaania",
+    "logo": "/images/ae3433efd7b9.png",
+    "link": "https://www.instagram.com/bayaania/"
+  },
+  {
+    "id": 13,
+    "name": "The Rumorist",
+    "logo": "/images/682596ed0634.png",
+    "link": "https://www.instagram.com/the_rumorist/"
+  },
+  {
+    "id": 22,
+    "name": "Saltafa",
+    "logo": "/images/b0399ee9247a.PNG",
+    "link": "https://www.instagram.com/sxltafa/"
+  },
+  {
+    "id": 23,
+    "name": "Fintech News Pakistan",
+    "logo": "/images/fdd0fda09d1c.jpeg",
+    "link": "https://www.linkedin.com/company/fintechnewspakistan/"
+  },
+  {
+    "id": 24,
+    "name": "Uet Media Society",
+    "logo": "/images/229e20402b7c.PNG",
+    "link": "https://www.instagram.com/ums.ksk/"
+  }
+]

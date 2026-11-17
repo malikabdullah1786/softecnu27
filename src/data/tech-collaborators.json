@@ -1,0 +1,32 @@
+[
+  {
+    "id": 5,
+    "name": "ICE",
+    "logo": "/images/d8af5e61c83d.jpg"
+  },
+  {
+    "id": 4,
+    "name": "GDSC",
+    "logo": "/images/635075f2daba.png"
+  },
+  {
+    "id": 3,
+    "name": "FSDS",
+    "logo": "/images/8f0f7f91fe11.png"
+  },
+  {
+    "id": 2,
+    "name": "ASCE",
+    "logo": "/images/f0021b101375.png"
+  },
+  {
+    "id": 1,
+    "name": "ACM",
+    "logo": "/images/a94ce0b5df24.png"
+  },
+  {
+    "id": 10,
+    "name": "NMG",
+    "logo": "/images/2ea4e70215ea.png"
+  }
+]

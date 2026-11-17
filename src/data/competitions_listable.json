@@ -1,0 +1,508 @@
+[
+  {
+    "id": 35,
+    "registration_name": "AI Hackathon",
+    "fees": 5000,
+    "name": "AI Hackathon",
+    "logo": "/images/2b492b9a414d.png",
+    "description": "Are you ready to push your limits and create impactful AI solutions under real-world pressure? Join the AI Hackathon—an intense 24-hour competition where teams ideate, design, and develop functional AI-powered applications from scratch. Using cutting-edge frameworks, models, and APIs, participants will transform creative ideas into working prototypes within a fast-paced environment. On the final day, showcase your solution through live demonstrations and pitches to expert judges. Gain hands-on experience, collaborate with talented innovators, and compete for exciting prizes. Step into the challenge, test your skills, and bring your AI vision to life!",
+    "details": [
+      {
+        "title": "View Complete Details",
+        "document": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/docs/AI_Hackathon.pdf"
+      }
+    ],
+    "highlight_image": "/images/df1ff187dcb4.png",
+    "cnic_required": true,
+    "initials": "AIH",
+    "min_team_size": 2,
+    "max_team_size": 3,
+    "winner_Prize": 100000,
+    "runnerUp_Prize": 50000,
+    "second_RunnerUp_Prize": null,
+    "sponsor": null,
+    "technical_collaborator": []
+  },
+  {
+    "id": 1,
+    "registration_name": "App Development Competition",
+    "fees": 2500,
+    "name": "App Development Competition",
+    "logo": "/images/7870ef1a49cd.png",
+    "description": "Welcome to the App Development Competition, where creative minds come together to showcase their innovative ideas and build exciting new applications. Whether you're an experienced app developer or just starting out, the App Development Competition is the perfect opportunity to challenge yourself, connect with peers, and take your skills to the next level. So what are you waiting for? Sign up now and let's build the next generation of apps together!",
+    "details": [
+      {
+        "title": "View Complete Details",
+        "document": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/docs/App_Development_Competition.pdf"
+      }
+    ],
+    "highlight_image": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/posters/App_dev.jpg",
+    "cnic_required": true,
+    "initials": "AD",
+    "min_team_size": 1,
+    "max_team_size": 3,
+    "winner_Prize": 60000,
+    "runnerUp_Prize": 30000,
+    "second_RunnerUp_Prize": null,
+    "sponsor": null,
+    "technical_collaborator": [
+      {
+        "id": 1,
+        "name": "ACM",
+        "logo": "/images/a94ce0b5df24.png"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "registration_name": "Bridge Construction Competition",
+    "fees": 1700,
+    "name": "Bridge Construction Competition",
+    "logo": "/images/1a533805c38e.png",
+    "description": "Welcome to the Bridge Construction Competition, a platform for the most creative and skilled engineers to come together and showcase their abilities in designing and building innovative bridges. Participants will be challenged to design and construct bridges that are not only aesthetically pleasing but also structurally sound and capable of withstanding various stress tests. So what are you waiting for? Sign up now and let's build the bridges of the future together!",
+    "details": [
+      {
+        "title": "View Complete Details",
+        "document": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/docs/Bridge_Construction_Competition.pdf"
+      }
+    ],
+    "highlight_image": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/bridge.jpg",
+    "cnic_required": true,
+    "initials": "BRC",
+    "min_team_size": 1,
+    "max_team_size": 2,
+    "winner_Prize": 30000,
+    "runnerUp_Prize": 15000,
+    "second_RunnerUp_Prize": null,
+    "sponsor": null,
+    "technical_collaborator": [
+      {
+        "id": 5,
+        "name": "ICE",
+        "logo": "/images/d8af5e61c83d.jpg"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "registration_name": "CAD War Competition",
+    "fees": 1700,
+    "name": "CAD War Competition",
+    "logo": "/images/26274a46c8b5.png",
+    "description": "Welcome to the AutoCAD War Competition, a platform for talented designers and engineers to showcase their proficiency in using AutoCAD software. Participants will be challenged to design and create complex, innovative 2D and 3D models using AutoCAD software that meet specific criteria and requirements. So don't miss this chance to showcase your creativity and technical skills - sign up now and let's see who will emerge victorious in the AutoCAD War!",
+    "details": [
+      {
+        "title": "View Complete Details",
+        "document": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/docs/CAD_War_Competition.pdf"
+      }
+    ],
+    "highlight_image": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/cadwar.jpg",
+    "cnic_required": true,
+    "initials": "CWC",
+    "min_team_size": 1,
+    "max_team_size": 1,
+    "winner_Prize": 25000,
+    "runnerUp_Prize": 10000,
+    "second_RunnerUp_Prize": null,
+    "sponsor": null,
+    "technical_collaborator": [
+      {
+        "id": 2,
+        "name": "ASCE",
+        "logo": "/images/f0021b101375.png"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "registration_name": "Cinematography Competition",
+    "fees": 1500,
+    "name": "Cinematography Competition",
+    "logo": "/images/59180fb33cd2.png",
+    "description": "Unleash Your Creativity in the Cinematography Competition! Step into the spotlight and let your imagination soar in our thrilling cinematography competition! Showcase your storytelling skills by creating captivating short films or reels that align with the announced theme. Compete with visionary filmmakers, gain recognition for your talent, and stand a chance to win amazing prizes. Don’t miss the opportunity to bring your cinematic vision to life and share it with a vibrant community of creators. Register now and take your first step toward becoming the ultimate cinematography champion!",
+    "details": [
+      {
+        "title": "View Complete Details",
+        "document": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/docs/Cinematography_NMG.pdf"
+      }
+    ],
+    "highlight_image": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/posters/Cinem.jpg",
+    "cnic_required": true,
+    "initials": "CC",
+    "min_team_size": 1,
+    "max_team_size": 1,
+    "winner_Prize": 20000,
+    "runnerUp_Prize": 10000,
+    "second_RunnerUp_Prize": null,
+    "sponsor": null,
+    "technical_collaborator": [
+      {
+        "id": 10,
+        "name": "NMG",
+        "logo": "/images/2ea4e70215ea.png"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "registration_name": "Cyber Security Competition",
+    "fees": 2000,
+    "name": "Cyber Security Competition",
+    "logo": "/images/85a09ff3ea87.png",
+    "description": "Welcome to the Cyber Security Challenge, a battleground for digital defenders! This global competition gathers cybersecurity experts to showcase their skills in threat detection, ethical hacking, and defensive strategies. Participants navigate complex networks, decode encrypted messages, and fend off simulated cyber attacks. It's more than a contest; it's a convergence of innovation where experts demonstrate their ability to outsmart digital adversaries. Spectators witness real-time cybersecurity expertise, learning about the latest defensive measures. The Cyber Security Challenge is a community of passionate individuals dedicated to securing the digital landscape. Whether you're a seasoned professional or a curious observer, join us for an exhilarating experience where the future of digital defense unfolds!",
+    "details": [
+      {
+        "title": "View Competition Details",
+        "document": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/docs/Cyber_Security.pdf"
+      }
+    ],
+    "highlight_image": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/posters/cybersecurity.jpg",
+    "cnic_required": true,
+    "initials": "CSC",
+    "min_team_size": 1,
+    "max_team_size": 3,
+    "winner_Prize": 50000,
+    "runnerUp_Prize": 25000,
+    "second_RunnerUp_Prize": null,
+    "sponsor": null,
+    "technical_collaborator": []
+  },
+  {
+    "id": 3,
+    "registration_name": "Engineering Project Competition",
+    "fees": 3000,
+    "name": "Engineering Project Competition",
+    "logo": "/images/5602fac56a8e.png",
+    "description": "Welcome to the Engineering Project Competition, a platform for creative and innovative engineering students to showcase their projects and compete with their peers. Participants will be challenged to design and build projects that solve real-world problems and demonstrate excellence in engineering principles. So what are you waiting for? Sign up now and let's see what innovative engineering projects you can bring to the table!",
+    "details": [
+      {
+        "title": "View Complete Details",
+        "document": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/docs/EPC.pdf"
+      }
+    ],
+    "highlight_image": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/posters/EPC.jpg",
+    "cnic_required": true,
+    "initials": "EPC",
+    "min_team_size": 1,
+    "max_team_size": 4,
+    "winner_Prize": 70000,
+    "runnerUp_Prize": 35000,
+    "second_RunnerUp_Prize": null,
+    "sponsor": null,
+    "technical_collaborator": []
+  },
+  {
+    "id": 22,
+    "registration_name": "Free Hand Sketching Competition",
+    "fees": 1500,
+    "name": "Free Hand Sketching Competition",
+    "logo": "/images/b6da8dc2db6b.png",
+    "description": "If you're a fan of traditional art forms and love to express your creativity through pencil and paper, then this competition is for you. Whether you're an experienced artist or a beginner, all are welcome to join us and let your artistic talents shine. Don't miss out on this opportunity to connect with other art enthusiasts and showcase your skills in this fun and engaging competition!",
+    "details": [
+      {
+        "title": "View Complete Details",
+        "document": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/docs/Free-Hand_Sketching_ICE.pdf"
+      }
+    ],
+    "highlight_image": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/posters/Sketching.jpg",
+    "cnic_required": true,
+    "initials": "HSC",
+    "min_team_size": 1,
+    "max_team_size": 1,
+    "winner_Prize": 20000,
+    "runnerUp_Prize": 10000,
+    "second_RunnerUp_Prize": null,
+    "sponsor": null,
+    "technical_collaborator": [
+      {
+        "id": 5,
+        "name": "ICE",
+        "logo": "/images/d8af5e61c83d.jpg"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "registration_name": "Game Jam Competition",
+    "fees": 2500,
+    "name": "Game Jam Competition",
+    "logo": "/images/e168c333e286.png",
+    "description": "Join our game development competition to showcase your skills and compete with young minds with amazing talents. Create stunning graphics, engaging storylines, and immersive gameplay for a chance to win amazing prizes and network with other developers. Register now and let your creativity soar!",
+    "details": [
+      {
+        "title": "View Complete Details",
+        "document": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/docs/Game_Jam.pdf"
+      }
+    ],
+    "highlight_image": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/gamejam.jpg",
+    "cnic_required": true,
+    "initials": "GJC",
+    "min_team_size": 1,
+    "max_team_size": 4,
+    "winner_Prize": 50000,
+    "runnerUp_Prize": 25000,
+    "second_RunnerUp_Prize": null,
+    "sponsor": null,
+    "technical_collaborator": []
+  },
+  {
+    "id": 4,
+    "registration_name": "Gaming Competition",
+    "fees": 2000,
+    "name": "GenX Gaming",
+    "logo": "/images/f1de8e7879db.png",
+    "description": "The profession of gaming is rapidly gaining ground in Pakistan. No longer is the activity relegated to the fringes of the I.T. industry; it is now recognised as a lucrative career choice in its own right. The gaming competition also draws intense interest from spectators. Spectator arenas are set up to allow people to watch the progress of tournaments. The palpable excitement around these arenas attracts multitudes of curious visitors besides those coming specifically to watch, making the gaming competition one of the most eagerly followed competitions of SOFTEC.",
+    "details": [
+      {
+        "title": "View Tekken Details",
+        "document": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/docs/Tekken_8_1.pdf"
+      },
+      {
+        "title": "View FIFA Details",
+        "document": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/docs/FIFA_1.pdf"
+      },
+      {
+        "title": "View Valorant Details",
+        "document": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/docs/Valorant.pdf"
+      }
+    ],
+    "highlight_image": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/posters/Gaming.jpg",
+    "cnic_required": true,
+    "initials": "GC",
+    "min_team_size": 1,
+    "max_team_size": 1,
+    "winner_Prize": 15000,
+    "runnerUp_Prize": 5000,
+    "second_RunnerUp_Prize": null,
+    "sponsor": null,
+    "technical_collaborator": []
+  },
+  {
+    "id": 6,
+    "registration_name": "Ideas Xtreme",
+    "fees": 3000,
+    "name": "Ideas Xtreme",
+    "logo": "/images/893806fde00d.png",
+    "description": "Bring your wildest and most imaginative ideas to the table as you compete against other creative thinkers from around the world. With no limits on what you can dream up, let your imagination run wild and bring your most unique ideas to life. This is your opportunity to make a difference and change the world with your groundbreaking ideas. Register now and take on the ultimate Ideas Xtreme Challenge!",
+    "details": [
+      {
+        "title": "View Complete Details",
+        "document": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/docs/Idea_Xtreme_IX..pdf"
+      }
+    ],
+    "highlight_image": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/ix.jpg",
+    "cnic_required": false,
+    "initials": "IX",
+    "min_team_size": 1,
+    "max_team_size": 2,
+    "winner_Prize": 15000,
+    "runnerUp_Prize": 10000,
+    "second_RunnerUp_Prize": null,
+    "sponsor": null,
+    "technical_collaborator": []
+  },
+  {
+    "id": 32,
+    "registration_name": "Line Following Robot",
+    "fees": 2000,
+    "name": "Line Following Robot",
+    "logo": "/images/158d092f1d8d.png",
+    "description": "Showcase Your Ingenuity in the Line Following Robot Competition! Step into the world of robotics and put your technical prowess to the test in the Line Following Robot Competition! Design, build, and program autonomous robots capable of navigating a challenging track with precision and efficiency. Compete against other talented innovators as your robot independently follows a black line, tackles turns, crosses intersections, and overcomes course complexities.  Participants must adhere to technical constraints, utilizing microcontrollers for control and IR sensors for line detection. The goal is to optimize performance, complete the track in the shortest time, and demonstrate unmatched precision and innovation. Join this exciting platform to showcase your skills, push the boundaries of robotics, and compete for the ultimate prize. Register now and let your creativity take the lead!",
+    "details": [
+      {
+        "title": "View Complete Details",
+        "document": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/docs/Line_Following_Robot.pdf"
+      }
+    ],
+    "highlight_image": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/posters/download.jpeg",
+    "cnic_required": true,
+    "initials": "LFR",
+    "min_team_size": 3,
+    "max_team_size": 4,
+    "winner_Prize": 30000,
+    "runnerUp_Prize": 15000,
+    "second_RunnerUp_Prize": null,
+    "sponsor": null,
+    "technical_collaborator": []
+  },
+  {
+    "id": 31,
+    "registration_name": "Machine Learning Competition",
+    "fees": 3000,
+    "name": "Machine Learning Competition",
+    "logo": "/images/a5eb558ff7a7.png",
+    "description": "Test Your Skills in the Machine Learning Competition! Dive into the world of data and algorithms in our exciting Machine Learning competition! Solve real-world problems by crafting innovative models and submitting your solutions on Kaggle. With a challenging problem statement and dataset provided at the start, you’ll have 24 hours to showcase your analytical and coding expertise.  Collaborate with your team, leverage your skills, and make up to 5 submissions to secure your place on the leaderboard. Internet will be provided, but bringing your own connection is recommended for a seamless experience. Bring your laptop, sharpen your strategies, and compete for glory in this thrilling challenge. Register now and let the data-driven battle begin!",
+    "details": [
+      {
+        "title": "View Complete Details",
+        "document": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/docs/Machine_Learning.pdf"
+      }
+    ],
+    "highlight_image": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/posters/ML.jpg",
+    "cnic_required": true,
+    "initials": "MLC",
+    "min_team_size": 1,
+    "max_team_size": 3,
+    "winner_Prize": 80000,
+    "runnerUp_Prize": 40000,
+    "second_RunnerUp_Prize": null,
+    "sponsor": null,
+    "technical_collaborator": []
+  },
+  {
+    "id": 9,
+    "registration_name": "Programming Competition",
+    "fees": 3000,
+    "name": "Programming Competition",
+    "logo": "/images/a8464bb691d1.png",
+    "description": "Put your programming skills to the test in our exciting flagship competition! Compete against other brilliant programmers, solve challenging problems, win amazing prizes, and network with industry experts. Register now to show off your coding prowess and become the ultimate programming champion.",
+    "details": [
+      {
+        "title": "View Complete Details",
+        "document": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/docs/Programming_Competition.pdf"
+      }
+    ],
+    "highlight_image": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/posters/PC.jpg",
+    "cnic_required": true,
+    "initials": "PC",
+    "min_team_size": 1,
+    "max_team_size": 3,
+    "winner_Prize": 80000,
+    "runnerUp_Prize": 40000,
+    "second_RunnerUp_Prize": null,
+    "sponsor": null,
+    "technical_collaborator": []
+  },
+  {
+    "id": 34,
+    "registration_name": "Query Vista Competition",
+    "fees": 2000,
+    "name": "Query Vista Competition",
+    "logo": "/images/392f8193eddd.png",
+    "description": "Master the Art of Data in the QueryVista Challenge! Step into an exciting end-to-end competition designed to test your database, analytics, and visualization skills. Participants begin by querying and preparing real-world datasets using SQL, performing transformations and feature engineering. In the next phase, teams build interactive dashboards and visualizations using tools like Python, Power BI, or Tableau. Experience an industry-style workflow while solving meaningful data problems within timed rounds. Showcase your insights to expert judges, compete with top talent, enhance your portfolio, and win amazing prizes. Register now and prove your ability to transform raw data into impactful decisions today!",
+    "details": [
+      {
+        "title": "View Complete Details",
+        "document": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/docs/QueryVista_FSDS.pdf"
+      }
+    ],
+    "highlight_image": "/images/2f9644abef67.png",
+    "cnic_required": true,
+    "initials": "QVC",
+    "min_team_size": 1,
+    "max_team_size": 2,
+    "winner_Prize": 50000,
+    "runnerUp_Prize": 25000,
+    "second_RunnerUp_Prize": null,
+    "sponsor": null,
+    "technical_collaborator": [
+      {
+        "id": 3,
+        "name": "FSDS",
+        "logo": "/images/8f0f7f91fe11.png"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "registration_name": "Robo Rumble",
+    "fees": 5000,
+    "name": "Robo Rumble",
+    "logo": "/images/f98591eebe9d.png",
+    "description": "Enter our electrifying Robo Rumble competition! Design and build your ultimate robot, then put it to the test in battles with other innovative robots, prove that your robot is the best of the best, and win amazing prizes. Register now to prove your engineering skills and make your mark in the world of robotics!",
+    "details": [
+      {
+        "title": "View Complete Details",
+        "document": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/docs/Robo_Rumble_5.pdf"
+      }
+    ],
+    "highlight_image": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/posters/Robo_Rumble.jpg",
+    "cnic_required": true,
+    "initials": "RR",
+    "min_team_size": 1,
+    "max_team_size": 4,
+    "winner_Prize": 100000,
+    "runnerUp_Prize": 50000,
+    "second_RunnerUp_Prize": null,
+    "sponsor": null,
+    "technical_collaborator": []
+  },
+  {
+    "id": 11,
+    "registration_name": "Software Project Competition",
+    "fees": 2500,
+    "name": "Software Project Competition",
+    "logo": "/images/405c10963ddc.png",
+    "description": "Whether you're working on a web application, mobile app, or any other software project, this is your chance to showcase your ideas and demonstrate your technical skills. Don't miss out on this exciting opportunity to challenge yourself and make a difference in the world of software development!",
+    "details": [
+      {
+        "title": "View Complete Details",
+        "document": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/docs/Software_Project_Competition.pdf"
+      }
+    ],
+    "highlight_image": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/posters/SPC.jpg",
+    "cnic_required": true,
+    "initials": "SPC",
+    "min_team_size": 1,
+    "max_team_size": 4,
+    "winner_Prize": 80000,
+    "runnerUp_Prize": 40000,
+    "second_RunnerUp_Prize": null,
+    "sponsor": null,
+    "technical_collaborator": []
+  },
+  {
+    "id": 17,
+    "registration_name": "UI/UX Competition",
+    "fees": 1700,
+    "name": "UI/UX Competition",
+    "logo": "/images/1d4505690c0e.png",
+    "description": "Join our exciting UI/UX competition to showcase your talent in designing intuitive and beautiful products. Compete against talents, network with industry experts, and win amazing prizes to elevate your career. Register now and let your creativity shine!",
+    "details": [
+      {
+        "title": "View Complete Details",
+        "document": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/docs/UI_UX_Design_Competition.pdf"
+      }
+    ],
+    "highlight_image": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/posters/UIUX.jpg",
+    "cnic_required": true,
+    "initials": "UIX",
+    "min_team_size": 1,
+    "max_team_size": 3,
+    "winner_Prize": 30000,
+    "runnerUp_Prize": 15000,
+    "second_RunnerUp_Prize": null,
+    "sponsor": null,
+    "technical_collaborator": [
+      {
+        "id": 1,
+        "name": "ACM",
+        "logo": "/images/a94ce0b5df24.png"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "registration_name": "Web Development Competition",
+    "fees": 2500,
+    "name": "Web Development Competition",
+    "logo": "/images/9dbbe7d13493.png",
+    "description": "Enter our web development competition and show off your design and coding skills! Create a stunning and user-friendly website from scratch and expand your skill set and take your career to the next level. Register now for our web development competition and let your creativity and coding skills shine!",
+    "details": [
+      {
+        "title": "View Complete Details",
+        "document": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/docs/Web_Development.pdf"
+      }
+    ],
+    "highlight_image": "https://objectstorage.me-riyadh-1.oraclecloud.com/n/axgbx88kzigs/b/softec-staging/o/competitions/posters/WEB_DEV.jpg",
+    "cnic_required": true,
+    "initials": "WD",
+    "min_team_size": 1,
+    "max_team_size": 3,
+    "winner_Prize": 80000,
+    "runnerUp_Prize": 40000,
+    "second_RunnerUp_Prize": null,
+    "sponsor": null,
+    "technical_collaborator": []
+  }
+]

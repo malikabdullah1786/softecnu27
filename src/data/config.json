@@ -1,0 +1,10 @@
+{
+  "accommodationFee": 1500,
+  "foodFee": 2500,
+  "currentEdition": 2026,
+  "isOfficerRegOpen": false,
+  "isAmbassadorRegOpen": false,
+  "isTeamRegOpen": false,
+  "isFoodRegOpen": false,
+  "isAccommodationRegOpen": false
+}

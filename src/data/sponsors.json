@@ -1,0 +1,210 @@
+{
+  "Education Partner": [
+    {
+      "id": 49,
+      "name": "AEO PAKISTAN",
+      "logo": "/images/8c2446ce555d.png",
+      "link": "https://aeo.com.pk/"
+    },
+    {
+      "id": 70,
+      "name": "GradBridge Consultant",
+      "logo": "/images/0c9ff0f8122e.jpg",
+      "link": "https://gradbridge.com/"
+    },
+    {
+      "id": 71,
+      "name": "The way forward",
+      "logo": "/images/a20a0c89166c.jpeg",
+      "link": "https://www.instagram.com/twf.school/"
+    }
+  ],
+  "Silver": [
+    {
+      "id": 50,
+      "name": "AppsGenii Technologies",
+      "logo": "/images/66cfce053a49.jpeg",
+      "link": "https://www.appsgenii.com/"
+    },
+    {
+      "id": 52,
+      "name": "Big binary tech",
+      "logo": "/images/fa78190d783d.jpg",
+      "link": "https://bbt.edu.pk/"
+    },
+    {
+      "id": 55,
+      "name": "Ebryx",
+      "logo": "/images/046cdc0a754d.jpeg",
+      "link": "https://www.ebryx.com/"
+    },
+    {
+      "id": 57,
+      "name": "mytm",
+      "logo": "/images/b990d4d89ec7.png",
+      "link": "https://mytm.co/"
+    },
+    {
+      "id": 62,
+      "name": "TinTash",
+      "logo": "/images/3ae8881a7b62.png",
+      "link": "https://tintash.com/"
+    },
+    {
+      "id": 65,
+      "name": "solvefy",
+      "logo": "/images/4fbf8429f9df.png",
+      "link": "https://solvefy.io/"
+    },
+    {
+      "id": 66,
+      "name": "DevExcel",
+      "logo": "/images/f8e12b208dcc.png",
+      "link": "https://devexcelit.com/"
+    },
+    {
+      "id": 67,
+      "name": "Ripeseed",
+      "logo": "/images/3c80b2a52a9d.png",
+      "link": "https://ripeseed.io/"
+    },
+    {
+      "id": 68,
+      "name": "SoftMind Solutions",
+      "logo": "/images/5bc22296d25e.png",
+      "link": "https://softmindsol.com/"
+    },
+    {
+      "id": 69,
+      "name": "Devspark",
+      "logo": "/images/ce6e9ce8cc22.png",
+      "link": "https://devsparklabs.com/"
+    },
+    {
+      "id": 51,
+      "name": "appsians",
+      "logo": "/images/f86ed2eae804.png",
+      "link": "https://www.appsians.com/"
+    }
+  ],
+  "Gold": [
+    {
+      "id": 53,
+      "name": "Datum labs",
+      "logo": "/images/664f00ae48dc.png",
+      "link": "https://www.datumlabs.io/"
+    },
+    {
+      "id": 59,
+      "name": "Purelogics",
+      "logo": "/images/05b97a66fed1.jpg",
+      "link": "https://purelogics.com/"
+    },
+    {
+      "id": 63,
+      "name": "Xavor",
+      "logo": "/images/dd59ee7016e2.png",
+      "link": "https://www.xavor.com/"
+    }
+  ],
+  "Platinum": [
+    {
+      "id": 56,
+      "name": "InvoZone",
+      "logo": "/images/caabb0af2030.png",
+      "link": "https://invozone.com/"
+    },
+    {
+      "id": 72,
+      "name": "Arrivy",
+      "logo": "/images/c409b6e7ca1a.png",
+      "link": "https://www.arrivy.com/"
+    }
+  ],
+  "Diamond": [
+    {
+      "id": 64,
+      "name": "soliton",
+      "logo": "/images/186af79ef6fa.png",
+      "link": "https://www.solitontechnologies.com/"
+    },
+    {
+      "id": 73,
+      "name": "Persivia",
+      "logo": "/images/306453581222.png",
+      "link": "https://persivia.com/"
+    }
+  ],
+  "Partners": [
+    {
+      "id": 12,
+      "name": "Tapal Danedar",
+      "title": "Tea Partner",
+      "logo": "/images/54ce756a016d.png",
+      "link": "https://tapaltea.com/"
+    },
+    {
+      "id": 11,
+      "name": "Top Maestro",
+      "title": "Emerging Partner",
+      "logo": "/images/4d8d168c3fe8.png",
+      "link": "https://topmbms.com/"
+    },
+    {
+      "id": 10,
+      "name": "Careem",
+      "title": "Travelling Partner",
+      "logo": "/images/9c947165fccc.png",
+      "link": "https://www.careem.com/"
+    },
+    {
+      "id": 9,
+      "name": "UTC",
+      "title": "Tech Partner",
+      "logo": "/images/3b5a5beeb0ed.png",
+      "link": "https://pk.linkedin.com/company/ultimate-tech-crew"
+    },
+    {
+      "id": 8,
+      "name": "WSS Bouncers",
+      "title": "Security Partner",
+      "logo": "/images/652c8ef0916b.jpg",
+      "link": "https://www.instagram.com/wss_bouncers_squad/"
+    },
+    {
+      "id": 7,
+      "name": "Popcorn Studios",
+      "title": "Outreach Partner",
+      "logo": "/images/f6140a750926.png",
+      "link": "https://popcornstudio.co/"
+    },
+    {
+      "id": 6,
+      "name": "Haroon's Designer",
+      "title": "Wardrobe Partner",
+      "logo": "/images/f9896ef88c78.jpg",
+      "link": "https://www.instagram.com/haroonsdesigner"
+    },
+    {
+      "id": 4,
+      "name": "Festive Labs",
+      "title": "Ticketing Partner",
+      "logo": "/images/f72e2a8b911d.png",
+      "link": "https://www.festivelabs.com/"
+    },
+    {
+      "id": 3,
+      "name": "Al Hilal",
+      "title": "Refreshment Partner",
+      "logo": "/images/083a86c91e97.png",
+      "link": "http://www.al-hilal.com.pk/"
+    },
+    {
+      "id": 2,
+      "name": "Faizan Mir",
+      "title": "Photography Partner",
+      "logo": "/images/1f61dc633abd.png",
+      "link": "https://www.instagram.com/faizanmirphotography/"
+    }
+  ]
+}

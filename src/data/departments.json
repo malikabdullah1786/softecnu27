@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "name": "Accomodation"
+  },
+  {
+    "id": 2,
+    "name": "App Dev Competition"
+  },
+  {
+    "id": 3,
+    "name": "Artificial Intelligence Competition"
+  },
+  {
+    "id": 31,
+    "name": "Automation"
+  },
+  {
+    "id": 33,
+    "name": "Bridge Construction Competition"
+  },
+  {
+    "id": 34,
+    "name": "CAD War Competition"
+  },
+  {
+    "id": 4,
+    "name": "Ceremonies"
+  },
+  {
+    "id": 5,
+    "name": "Conferences"
+  },
+  {
+    "id": 45,
+    "name": "Cyber Security Competition"
+  },
+  {
+    "id": 35,
+    "name": "Data Visualisation Competition"
+  },
+  {
+    "id": 6,
+    "name": "Decor"
+  },
+  {
+    "id": 7,
+    "name": "Engineering Project Competition"
+  },
+  {
+    "id": 8,
+    "name": "Evaluations"
+  },
+  {
+    "id": 9,
+    "name": "FoodCourt"
+  },
+  {
+    "id": 44,
+    "name": "Game Jam Competition"
+  },
+  {
+    "id": 10,
+    "name": "Gaming Competition"
+  },
+  {
+    "id": 42,
+    "name": "Graphic Design"
+  },
+  {
+    "id": 12,
+    "name": "Ideas Xtreme"
+  },
+  {
+    "id": 13,
+    "name": "Infrastructure"
+  },
+  {
+    "id": 46,
+    "name": "International Affairs"
+  },
+  {
+    "id": 15,
+    "name": "Invitiations"
+  },
+  {
+    "id": 16,
+    "name": "Logistics"
+  },
+  {
+    "id": 17,
+    "name": "Marketing"
+  },
+  {
+    "id": 18,
+    "name": "Media and Promotions"
+  },
+  {
+    "id": 19,
+    "name": "Office"
+  },
+  {
+    "id": 20,
+    "name": "Partnerships"
+  },
+  {
+    "id": 36,
+    "name": "Photography"
+  },
+  {
+    "id": 21,
+    "name": "Programming Competition"
+  },
+  {
+    "id": 37,
+    "name": "Public Relations"
+  },
+  {
+    "id": 43,
+    "name": "Query Master Competition"
+  },
+  {
+    "id": 22,
+    "name": "Reception"
+  },
+  {
+    "id": 23,
+    "name": "Robo Rumble"
+  },
+  {
+    "id": 24,
+    "name": "Security"
+  },
+  {
+    "id": 38,
+    "name": "Sketching Competition"
+  },
+  {
+    "id": 25,
+    "name": "Software House Enclosure"
+  },
+  {
+    "id": 26,
+    "name": "Software Project Competition"
+  },
+  {
+    "id": 29,
+    "name": "UI/UX Competition"
+  },
+  {
+    "id": 27,
+    "name": "Videography"
+  },
+  {
+    "id": 28,
+    "name": "Web Development Competition"
+  }
+]

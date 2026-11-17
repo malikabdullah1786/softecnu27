@@ -1,0 +1,42 @@
+[
+  {
+    "id": 5,
+    "name": "Accounting and Finance"
+  },
+  {
+    "id": 7,
+    "name": "Artificial Intelligence"
+  },
+  {
+    "id": 4,
+    "name": "BBA"
+  },
+  {
+    "id": 10,
+    "name": "Business Analytics"
+  },
+  {
+    "id": 3,
+    "name": "Civil Engineering"
+  },
+  {
+    "id": 1,
+    "name": "Computer Science"
+  },
+  {
+    "id": 8,
+    "name": "Data Science"
+  },
+  {
+    "id": 2,
+    "name": "Electrical Engineering"
+  },
+  {
+    "id": 9,
+    "name": "Fintech"
+  },
+  {
+    "id": 6,
+    "name": "Software Engineering"
+  }
+]
