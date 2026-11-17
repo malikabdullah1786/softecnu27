@@ -79,8 +79,15 @@ function HeroSection() {
   return (
     <section
       id="introduction"
-      className="relative min-h-screen pt-32 pb-20 px-4 sm:px-6 md:px-14 flex flex-col justify-center items-center bg-gradient-to-b from-secondary via-surface-low to-surface-dark border-b border-primary/15 bg-grid-pattern overflow-hidden"
+      className="relative min-h-screen pt-32 pb-20 px-4 sm:px-6 md:px-14 flex flex-col justify-center items-center border-b border-primary/15 overflow-hidden bg-surface-dark"
     >
+      {/* Hero Background Photo + Forest-Dark Gradient Overlay + Grid */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-105"
+        style={{ backgroundImage: "url('/media/hero.jpg')" }}
+      />
+      <div className="absolute inset-0 bg-gradient-to-b from-dark/80 via-secondary/75 to-surface-dark/95" />
+      <div className="absolute inset-0 bg-grid-pattern pointer-events-none" />
       {/* Ambient Radial Glows */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[650px] h-[400px] bg-primary/10 rounded-full blur-[130px] pointer-events-none" />
       <div className="absolute bottom-10 right-10 w-[320px] h-[320px] bg-tertiary/10 rounded-full blur-[110px] pointer-events-none" />
@@ -518,8 +525,13 @@ function CampusSection() {
   ]
 
   return (
-    <section className="py-20 md:py-24 px-4 sm:px-6 md:px-14 bg-surface-dark text-light">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+    <section className="relative py-20 md:py-24 px-4 sm:px-6 md:px-14 bg-surface-dark text-light overflow-hidden">
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/media/fast.webp')" }}
+      />
+      <div className="absolute inset-0 bg-gradient-to-r from-dark/90 via-secondary/85 to-dark/90" />
+      <div className="relative z-10 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         <div className="lg:col-span-6">
           <span className="inline-flex items-center px-3 py-1 rounded-md bg-secondary text-primary text-[10px] uppercase font-bold tracking-widest mb-4">
             Venue &amp; Schedule
