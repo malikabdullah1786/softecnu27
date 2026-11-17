@@ -85,13 +85,14 @@ function HeroSection({ showTimeline = false }) {
     <section id="introduction">
       <div className="relative flex flex-col items-center justify-center w-full min-h-screen py-28 px-5 bg-dark sm:px-20 md:px-0 hero-section bg-hero">
         <MotionReveal>
-          <img
-            className="select-none md:px-0 px-10 w-[30ch] sm:w-[50ch] md:w-[75ch] lg:w-[95ch]"
-            src={assets.Welcome}
-            width="25ch"
-            height={110}
-            alt="Welcome to SOFTEC 2027"
-          />
+          <div className="text-center select-none px-4">
+            <p className="text-lg sm:text-2xl md:text-3xl font-bold tracking-[0.25em] uppercase text-tertiary mb-2">
+              Welcome To
+            </p>
+            <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-extrabold tracking-tight text-light glow">
+              SOFTEC<span className="text-primary">&apos;27</span>
+            </h1>
+          </div>
         </MotionReveal>
         <p className="md:text-xl lg:text-2xl mt-3 text-sm font-bold text-center text-light">
           16th - 18th April 2027 at FAST NUCES, Lahore

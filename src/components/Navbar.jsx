@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import assets from '../assets'
 
 const navRoutes = [
   { title: 'Home', url: '/' },
@@ -95,9 +94,28 @@ export default function Navbar() {
             <Link
               href="/"
               onClick={() => setMenuOpen(false)}
-              className="flex items-center text-white text-[30px] font-semibold"
+              className="flex items-center gap-3 text-white font-semibold"
             >
-              <img src={assets.Logo} alt="logo" className="w-[150px] md:w-[225px]" />
+              <svg
+                width="44"
+                height="44"
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-9 h-9 md:w-11 md:h-11 shrink-0"
+              >
+                <path d="M24 4L42 14V34L24 44L6 34V14L24 4Z" fill="#173D32" stroke="#CEEF55" strokeWidth="2.5" />
+                <path d="M24 4L42 14L24 24L6 14L24 4Z" fill="#CEEF55" fillOpacity="0.9" />
+                <path d="M24 24V44L42 34V14L24 24Z" fill="#D5A47D" fillOpacity="0.85" />
+              </svg>
+              <div className="flex flex-col leading-none">
+                <span className="text-xl md:text-2xl font-extrabold tracking-wide text-light">
+                  SOFTEC<span className="text-primary">&apos;27</span>
+                </span>
+                <span className="text-[10px] md:text-xs font-medium text-tertiary tracking-widest uppercase">
+                  Legacy Meets Tomorrow
+                </span>
+              </div>
             </Link>
           </div>
 
