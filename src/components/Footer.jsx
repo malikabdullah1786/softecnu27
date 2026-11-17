@@ -29,13 +29,13 @@ export default function Footer() {
               <div className="xl:mt-0 mt-8">
                 <div>
                   <img
-                    src={assets.LogoRed}
+                    src={assets.LogoMini}
                     alt="SOFTEC Logo"
-                    width={200}
-                    height={200}
+                    width={140}
+                    height={140}
                     title="SOFTEC Logo"
                     loading="lazy"
-                    className="md:w-[150px] mx-auto md:m-0 w-[100px] object-cover mb-2 p-2 brightness-0 invert"
+                    className="md:w-[130px] mx-auto md:m-0 w-[90px] object-contain mb-3 p-1"
                   />
                   <p className="md:text-3xl md:text-left text-2xl font-semibold text-center text-primary uppercase">
                     Contact US
@@ -85,7 +85,7 @@ export default function Footer() {
 
           <div className="md:mt-8 md:pt-8 md:flex md:items-center md:justify-between mt-8 border-t border-light/20">
             <p className="md:mt-0 md:order-1 mt-8 text-base text-center text-light/80">
-              &copy; {new Date().getFullYear()} SOFTEC. All rights reserved.
+              &copy; 2027 SOFTEC. All rights reserved.
             </p>
             <div className="md:order-2 md:mt-0 flex justify-center mt-6 space-x-6">
               <a
